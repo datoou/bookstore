@@ -1,0 +1,568 @@
+*{
+  padding: 0;
+    margin: 0;
+}
+.navigator_bj{
+    background-color: #f5f5f5;
+}
+.navigator{
+    width: 80%;
+    height:40px;
+    margin: auto;
+}
+.navigator ul{
+    list-style: none;
+    float: right;
+}
+.navigator ul li{
+    float: left;
+    margin-left:5px;
+    line-height:30px;
+    padding: 5px 15px;
+    height: 30px;
+    letter-spacing: 3px;
+    font-size: 13px;
+    border-left: 1px #dbdbdb solid;
+    color: black;
+
+}
+.navigator a{
+    text-align:center;
+    height:30px;
+}
+.navigator a:link{
+    color: black;
+    text-decoration:none;
+}
+#login_red{
+    color: red;
+}
+.logout {
+    color: black;
+    text-decoration:none;
+}
+.logout a:hover{
+    color: red;
+}
+.navigator a:hover{
+    text-decoration:none;
+    color: red;
+    cursor: pointer;
+}
+.top{
+    width: 80%;
+    height: 150px;
+    margin: auto;
+}
+.top_logo{
+    width: 300px;
+    height: 100px;
+    position: relative;
+    top: 30px;
+    left: 0px;
+}
+.top_search{
+    width: 600px;
+    height: 30px;
+    margin:auto;
+    position: relative;
+    top: -30px;
+    left: 30px;
+}
+.input_search{
+    width: 600px;
+    height: 40px;
+    line-height: 40px;
+    border: 2px solid red;
+    font-size: 15px;
+    padding:9px 10px;
+    outline: 0 none;
+    margin-left: 40px;
+    position: relative;
+    top: -160px;
+    left: -26px;
+}
+.top_sousuo{
+    float: right;
+    width: 30px;
+    height: 30px;
+    background-color: red;
+    position:relative;
+    top: 5px;
+    left: -5px;
+}
+.top_sousuo1{
+    float: right;
+    width: 40px;
+    height: 40px;
+    background-color: red;
+    position:relative;
+    top: -160px;
+    left: -27px;
+}
+.top_logo1{
+    width: 100px;
+    height: 100px;
+    float: right;
+    position: relative;
+    top: -90px;
+    left: -55px;
+}
+.top_logo2{
+    width: 90px;
+    height: 30px;
+    float: right;
+    position: relative;
+    top: -120px;
+    left: 30px;
+}
+.category_a{
+    width: 100%;
+    height: 50px;
+    border-bottom: 2px solid red;
+}
+.category{
+    width: 80%;
+    margin: auto;
+    height: 50px;
+}
+.category a:link{
+    color: black;
+    text-decoration:none;
+}
+.category a:hover{
+    text-decoration:none;
+    color: red;
+    cursor: pointer;
+}
+#divmenu a{
+    float: left;
+    display: block;
+    width: 70px;
+    height: 30px;
+    line-height: 30px;
+    text-align: center;
+    font-weight: bolder;
+}
+/*广告*/
+.advertisement{
+    width: 80%;
+    height: 67px;
+    margin: auto;
+}
+.advertisement_a{
+   width: 100%;
+    height: 67px;
+   position: relative;
+    top: -15px;
+}
+/*轮播图*/
+
+#parent{
+    position: relative;
+    margin: 50px auto;
+    padding: 0;
+    width: 1215px;
+    height: 528px;
+    top: -20px;
+}
+
+#uls{
+    position: relative;
+    margin: 0;
+    padding: 0;
+    width: 1215px;
+    height: 528px;
+    overflow: hidden;
+}
+
+#img_ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    left: 0;
+    top: 0;
+    width: 20000px;
+    list-style: none;
+}
+#img_ul li{
+    float: left;
+    margin: 0;
+    padding: 0;
+    width: 1215px;
+    height: 528px;
+}
+#img_ul li img{
+    width: 1215px;
+    height: 528px;
+}
+
+#litCir_ul{
+    position: absolute;
+    margin: 0;
+    padding: 0;
+    right: 10px;
+    bottom: 10px;
+    list-style: none;
+}
+#litCir_ul li{
+    margin: 0;
+    padding: 0;
+    float: left;
+    width: 20px;
+    height: 20px;
+    text-align: center;
+    line-height: 20px;
+    border-radius: 50%;
+    margin-left:10px ;
+    cursor: pointer;
+}
+
+li.active{
+    background-color: white;
+}
+li.quiet{
+    background-color: #1e90ff;
+}
+
+#buttons{
+    margin: 0;
+    padding: 0;
+    display: none;
+}
+#buttons span{
+    position: absolute;
+    width: 40px;
+    height: 40px;
+    top: 50%;
+    margin-top: -20px;
+    line-height: 40px;
+    text-align: center;
+    font-weight: bold;
+    font-family: Simsun;
+    font-size: 30px;
+    border: 1px solid #fff;
+    opacity: 0.3;
+    cursor: pointer;
+    color: #fff;
+    background: black;
+}
+#left{
+    left: 5px;
+}
+#right{
+    left: 100%;
+    margin-left: -45px;
+}
+/*#################################*/
+/*新*/
+#newbook_n{
+    float: left;
+    width: 175px;
+    height: 230px;
+    margin-left: 35px;
+    margin-top: 25px;
+}
+.middle{
+    width: 80%;
+    margin: auto;
+    height: 600px;
+    margin-top: -50px;
+}
+.newbook{
+    width: 900px;
+    height: 500px;
+}
+.newbook_tp{
+    width: 48px;
+    height: 48px;
+    float: left;
+}
+.newbook_top{
+    width: 900px;
+    height: 50px;
+    display: inline-block;
+}
+.newbook_text{
+    float: left;
+    margin-top: 20px;
+    width: 842px;
+    left: 10px;
+    font-size: 20px;
+    margin-left: 10px;
+    border-bottom: 1px green solid;
+}
+.book{
+    width: 175px;
+    height: 240px;
+    margin-top: 20px;
+}
+.book_tp{
+    width: 160px;
+    height: 175px;
+    margin-left: -15px;
+}
+.book dl{
+    margin-top: 20px;
+}
+.text1{
+    font-size: 14px;
+    margin-left: 10px;
+    width: 150px;
+    display: block;
+}
+.text2{
+    font-weight: bold;
+    color: red;
+    height: 20px;
+    line-height: 20px;
+    margin-left: 10px;
+
+}.text3{
+    font-weight: bold;
+    color: #dbdbdb;
+    text-decoration:line-through;
+     height: 20px;
+     line-height: 20px;
+     margin-left: 10px;
+
+ }
+ .newbook_ul{
+     width: 900px;
+     height: 600px;
+position: relative;
+     top:20px;
+     left: 30px;
+ }
+
+
+ /*排行榜*/
+.ranking{
+    width: 250px;
+    height: 550px;
+    float: right;
+    position: relative;
+    top: -455px;
+    border: 1px solid #dbdbdb;
+}
+.ranking_top{
+    width: 250px;
+    height: 50px;
+    position: relative;
+    top: -50px;
+}
+.ranking_text{
+    font-size: 20px;
+    position: relative;
+    top: -5px;
+}
+.ranking_a{
+    width: 250px;
+    height: 550px;
+    position: relative;
+    top: -50px;
+}
+#ranking_book1{
+    width: 250px;
+    height: 50px;
+}
+.ranking_1{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    display: inline-block;
+}
+.ranking_m{
+    font-size: 20px;
+    height: 50px;
+    line-height: 50px;
+    margin-left: 10px;
+    display: inline-block;
+    color: red;
+}
+
+.ranking_2{
+    font-size: 16px;
+    margin-left: 10px;
+    height: 50px;
+    width: 200px;
+    line-height: 50px;
+    display: inline-block;
+
+}
+.ranking_a ul li{
+    list-style: none;
+}
+#ranking_book11 #ranking_book21 #ranking_book31 #ranking_book41 #ranking_book51 #ranking_book61
+#ranking_book71 #ranking_book81 #ranking_book91 #ranking_book01{
+    width: 250px;
+    height: 150px;
+}
+.ranking_book11tp{
+    width: 150px;
+    height: 150px;
+}
+.rankingkk{
+    width: 100px;
+    height: 150px;
+    float: right;
+}
+.rankingtext{
+   height: 35px;
+    line-height: 35px;
+}
+.rankingprice1{
+   color: red;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+.rankingprice2{
+  text-decoration:line-through;
+    color: #dbdbdb;
+    font-weight: bold;
+    height: 35px;
+    line-height: 35px;
+}
+.ranking_buttom{
+    width: 80%;
+    height: 1px;
+    border-bottom:1px solid #dbdbdb;
+    margin: auto;
+    position: relative;
+    top: 40px;
+}
+
+.buttom{
+    width: 1519px;
+    height: 90px;
+    position: absolute;
+    top:1530px;
+}
+.button_tp{
+    width: 1519px;
+    height: 90px;
+    margin-top: 30px;
+}
+.buttom_db{
+    width: 1000px;
+    height: 150px;
+    margin-top: 180px;
+    position: relative;
+    left: 350px;
+}
+.buttom_db a:link{
+    color: black;
+    text-decoration:none;
+}
+.buttom_db a:hover{
+    text-decoration:none;
+    color: red;
+    cursor: pointer;
+}
+.buttom_db_text{
+    font-size: 17px;
+    text-align: center;
+    width: 100px;
+    height: 20px;
+    position: relative;
+    left: 12px;
+}
+
+.buttom_db_zt{
+    font-size: 14px;
+    color: gray;
+    width: 100px;
+    height: 25px;
+    line-height: 25px;
+    padding-top: 10px;
+    position: relative;
+    left: 32px;
+}
+.buttom_da_a{
+    float: left;
+    width: 130px;
+    height: 150px;
+    margin-left: 10px;
+}
+.buttom_underline{
+    width: 100%;
+    border-bottom:1px solid #dbdbdb;
+}
+.buttom_db_nav{
+    width: 70%;
+    height: 50px;
+    margin: auto;
+    position: relative;
+    left: 200px;
+    margin-top: 20px;
+    color: gray;
+}
+.buttom_db_nav ul li {
+    list-style: none;
+    float: left;
+}
+.buttom_db_nav a:hover{
+    color: red;
+    cursor: pointer;
+}
+.buttom_db_bb{
+    width: 70%;
+    height: 20px;
+    position: relative;
+    left: 340px;
+    color: gray;
+}
+#back-top {
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:30px;
+    right:45px;
+    background:#e6e6e6;
+    text-align:center;
+    line-height:60px;
+    text-decoration:none;
+}
+#notice{
+    position:fixed;
+    width:60px;
+    height:60px;
+    bottom:92px;
+    right:45px;
+    text-align:center;
+    line-height:60px;
+    text-decoration:none;
+    background:#e6e6e6;
+}
+.notice{
+    width: 900px;
+    height: 600px;
+    margin: auto;
+}
+.tooltips{
+    position:relative; /*这个是关键*/
+    z-index:2;
+}
+.tooltips:hover{
+    z-index:3;
+    background:none; /*没有这个在IE中不可用*/
+}
+.tooltips iframe{
+    display: none;
+}
+.tooltips:hover iframe{ /*span 标签仅在 :hover 状态时显示*/
+    display:block;
+    position:absolute;
+    top:-257px;
+    left:-40px;
+    width:140px;
+    height: 250px;
+    background-image: linear-gradient(-225deg, #E3FDF5 0%, #FFE6FA 100%);
+    border-radius: 15px;
+    line-height: 20px;
+}
+
+
+

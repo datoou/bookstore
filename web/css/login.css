@@ -1,0 +1,96 @@
+.login{
+    width: 400px;
+    height: 430px;
+    border: 1px solid #dbdbdb;
+    position: fixed;
+    top: 200px;
+    right: 100px;
+}
+.logo{
+    width: 400px;
+    height: 400px;
+    position: fixed;
+    top: 20px;
+    left: 100px;
+}
+.backgroud{
+    width: 300px;
+    height: 300px;
+    position: fixed;
+    top: 200px;
+    left: 300px;
+}
+.backgroud_1{
+    width: 400px;
+    height: 400px;
+}
+.login_text{
+    font-size: 20px;
+    margin-top: 20px;
+    margin-left: 30px;
+}
+.login_num{
+    width: 300px;
+    height: 30px;
+    margin-top: 40px;
+    margin-left: 20px;
+    background-image: url("../images/login.png");
+    background-size: 20px 20px;
+    background-repeat: no-repeat;
+    background-position: 6px 3px;
+    padding-left: 35px;
+    border: 1px solid #cdcdcd;
+    color: #bfbfbf;
+}
+.login_pw{
+    width: 300px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    background-image: url("../images/password.png");
+    background-size: 25px 25px;
+    background-repeat: no-repeat;
+    background-position: 3px 3px;
+    padding-left: 35px;
+    border: 1px solid #cdcdcd;
+    color: #bfbfbf;
+
+}
+::-webkit-input-placeholder {
+    color: #bfbfbf;
+}
+.login_yzm{
+    width: 100px;
+    height: 30px;
+    margin-left: 20px;
+    margin-top: 40px;
+    padding-left: 5px;
+    border: 1px solid #cdcdcd;
+    color: #bfbfbf;
+}
+.login_checkyzm{
+   position: absolute;
+    top: 226px;
+    left: 160px;
+}
+.login_tj{
+    margin: 80px 70px;
+    width: 250px;
+    height: 70px;
+    background-color: #fe4129;
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+    border: 1px solid #fe4129;
+    border-radius: 10px;
+}
+.register_lj{
+    position: relative;
+    top: -40px;
+    left: 20px;
+    font-size: 13px;
+    color: gray;
+}
+.register_lj a:hover{
+    cursor: pointer;
+}
